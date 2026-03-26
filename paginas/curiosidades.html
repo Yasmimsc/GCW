@@ -1,0 +1,94 @@
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="../css/materialize.css"  media="screen,projection"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Morcegos vampiros</title>
+    </head>
+    <body>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper red darken-4 ">
+                    <a href="#!" class="brand-logo center">Desmodontinae</a>
+                    <ul class="left hide-on-med-and-down">
+                        <li><a href="../index.html">Início</a></li>
+                        <li><a href="caracteristicas.html">Características</a></li>
+                        <li class="active"><a href="#">Curiosidades</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="parallax-container">
+            <div class="parallax"><img src="../img/desmodus2.jpg"></div>
+        </div>
+        <div class="section white">
+            <div class="row container">
+                <h3 class="header red-text text-darken-4">Você sabia?</h3>
+
+                <div class="row">
+                    <div class="col s12 m6">
+                        <div class="card-panel red darken-3">
+                            <span class="white-text">Os morcegos vampiros são os únicos vertebrados que se alimentam <strong>exclusivamente</strong> de sangue. Essa característica é mais comum em animais invertebrados.</span>
+                        </div>
+                    </div>
+
+                    <div class="col s12 m6">
+                        <div class="card-panel red darken-3">
+                            <span class="white-text">Uma colônia pode compartilhar sangue: indíviduos que não conseguiram se alimentar recebem sangue de outros por regurgitação, isso é bem mais evidente no Desmodus rotundus.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="center row">
+            <a class="waves-effect waves-light btn modal-trigger red darken-4" href="#modal1"><i class="material-icons left">info</i>Curiosidade extra</a>
+        </div>        
+
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <h4>Metabolismo rápido</h4>
+                <p>Devido ao metabolismo acelerado que os morcegos-vampiros possuem, eles podem morrem em apenas 48 horas se não se alimentarem.</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fechar</a>
+            </div>
+        </div>
+        
+        <footer class="page-footer red darken-4">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Sobre o site</h5>
+                <p class="grey-text text-lighten-4">Site criado com componentes exclusivos do Materialize para fins educativos.</p>
+              </div>
+
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container center">
+            © 2026 Copyright
+            </div>
+          </div>
+        </footer>
+
+      <script type="text/javascript" src="../js/materialize.js"></script>
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.parallax');
+            var instances = M.Parallax.init(elems);
+        });
+
+          document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.modal');
+            var instances = M.Modal.init(elems);
+        });
+      </script>
+    </body>
+  </html>
+        
